@@ -1,0 +1,38 @@
+body{
+    border: 0px;
+    margin: 0px;
+    background-color:goldenrod
+   }
+   header{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+       padding: 1px;
+       list-style: none;
+       background: rebeccapurple;
+       
+   }
+    
+   .menu{
+       display: flex;
+       list-style: none;
+       
+   }
+   .menu li{
+       margin: 10px;
+   }
+
+   .grid{
+       grid-template-columns: repeat(3, 1fr);
+       display: grid;
+       margin: 0 auto;
+       max-width: 800px;
+       grid-gap: 20px;
+   }
+
+   a{
+    color: black;
+    font-size: 20px;
+    font-style: none;
+   }
